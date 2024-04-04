@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm run -w packages/* build",
+    "clean": "rm -rf dist",
     "start": "cd apps/vite-project && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

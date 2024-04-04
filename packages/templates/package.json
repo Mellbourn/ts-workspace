@@ -1,14 +1,13 @@
 {
   "name": "templates",
   "version": "1.0.0",
-  "module": "dist/index.js",
+  "module": "index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc index.ts --declaration --allowJs --outDir dist"
   },
   "author": "",
   "license": "ISC",
-  "main": "index.js",
   "devDependencies": {},
   "description": ""
 }
